@@ -1,0 +1,85 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Top*/
+.hero_top .top_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 140px 0;
+    position: relative;
+}
+.hero_top h1 {
+    font-size: 2.2vw;
+    text-align: center;
+    max-width: 900px;
+}
+.hero_top img {
+    position: absolute;
+    opacity: 0.4;
+}
+.hero_top img#left-top {
+    width: 80px;
+    top: 10%;
+    left: -80px;
+}
+.hero_top img#left-bottom {
+    width: 60px;
+    bottom: 20%;
+    left: 40px;
+}
+.hero_top img#center-bottom {
+    width: 40px;
+    bottom: 18%;
+    left: 40%;
+}
+.hero_top img#right-bottom {
+    max-width: 140px;
+    bottom: 25%;
+    right: 20px;
+}
+.hero_top img#right-top {
+    width: 40px;
+    top: 14%;
+    right: 100px;
+}
+/* Bottom */
+.hero_bottom {
+    padding: 80px 0 0 0;
+}
+.hero_bottom .bottom_row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 80px;
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.hero_bottom .cell {
+    min-height: 100px;
+}
+.hero_bottom .cell .inner {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.hero_bottom .cell .inner .text {
+    padding: 0 20px 0 0;
+}
+.hero_bottom .cell .inner .icon {
+    display: flex;
+    justify-content: center;
+}
+
+/* TEMP */
+.temp-square {
+    background: var(--purple);
+    width: 40px;
+    height: 40px;
+}
+/* ENDTEMP */
