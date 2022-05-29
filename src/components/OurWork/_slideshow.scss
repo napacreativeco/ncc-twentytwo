@@ -2,15 +2,12 @@
 .slideshow {
     margin: 0 auto;
     overflow: hidden;
-    width: 80%;
-    max-width: 440px;
+    width: 100%;
   }
-  
   .slideshowSlider {
     white-space: nowrap;
     transition: ease 1000ms;
   }
-  
   .slide {
     display: inline-block;
     height: 360px;
@@ -19,7 +16,6 @@
   }
   
   /* Buttons */
-  
   .slideshowDots {
     text-align: center;
   }
